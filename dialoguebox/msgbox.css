@@ -1,0 +1,92 @@
+.disablediv{
+background:transparent url(./images/transparent.png)
+position:fixed;
+top:0px;
+left:0px;
+z-index:1005;
+height:100%;
+width:100%;
+filter:alpha(opacity=70);
+-moz-opacity:.7;opacity:.7;
+}
+
+.dvmsgbox{
+position:absolute;
+z-index:1006;
+padding:0px;
+margin:0px;
+width:301px;
+height:171px;
+background:silver url(msgbox.png) no-repeat left top;
+top:50%;
+left:50%;
+margin-left:-150px;
+margin-top:-85px;
+}
+
+.dvmsgbox .msgboxtitle{
+width:295px;
+margin:2px 4px 0px 2px;
+padding:0px;
+color:white;
+font-family:verdana;
+font-size:14px;
+font-weight:bold;
+line-height:26px;
+height:26px;
+vertical-align:middle;
+float:left;
+clear:none;
+}
+
+.msgboxtitle .caption{
+float:left;
+clear:right;
+width:275px;
+}
+
+.msgboxtitle .close{
+cursor:pointer;
+margin-top:3px;
+}
+
+.dvmsgbox .msgboxdesc{
+width:295px;
+height:112px;
+font-family:verdana;
+font-size:12px;
+font-weight:normal;
+padding:0px;
+margin:5px 4px 0px 2px;
+color:black;
+float:left;
+clear:none;
+vertical-align:top;
+white-space:pre-line;
+}
+
+.dvmsgbox .msgboxbuttons
+{
+width:295px;
+padding:0px;
+margin:2px 4px 0px 2px;
+float:left;
+clear:none;
+}
+.dvmsgbox .msgboxbuttons input[type="button"]
+{
+font-family:verdana;
+font-size:12px;
+width:auto;
+height:18px;
+background:Silver url(msgboxbuttons.png) repeat-x;
+border:solid 1px #003C74;	
+padding:0px 2px 2px 2px;
+margin:0px 0px 0px 4px;
+position:relative;
+cursor:pointer;
+float:right;
+clear:left;
+text-align:center;
+vertical-align:middle;
+}
